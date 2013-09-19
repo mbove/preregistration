@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+  		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  		<script src="register.js"></script>
+	</head>
+	<div id="header">
+	</div>
+	<div id="wrapper">
+		<h1 class="preregistration">Preregistration</h1>
+		<div class="directions first">Follow the steps to preregister for the event.</div>
+		<form>
+			<div class="step second">
+				<h2>2. Enter Personal Information</h2>
+				<div class="section">
+					<table>
+						<tr>
+							<td colspan="2">* required field</td>
+						</tr>
+						<tr>
+							<td class="text-right">* last name:</td>
+							<td><input type="text" name="first_name" /></td>
+						</tr>
+						<tr>
+							<td class="text-right">* first name:</td>
+							<td><input type="text" name="last_name" /></td>
+						</tr>
+					</table>
+				</div>
+				<div class="section">
+					<table>
+						<tr>
+							<td class="text-right">* phone:</td>
+							<td><input type="text" name="first_name" /></td>
+						</tr>
+						<tr>
+							<td class="text-right">* phone type:</td>
+							<td>
+								<select>
+									<option></option>
+									<option>Mobile</option>
+									<option>Landline</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="text-right">email:</td>
+							<td>
+								<input type="text" name="first_name" />
+							</td>
+						</tr>
+						<tr>
+							<td class="text-right"><br/>address line 1:</td>
+							<td><br/><input type="text" name="first_name" /></td>
+						</tr>
+						<tr>
+							<td class="text-right">address line 2:</td>
+							<td><input type="text" name="first_name" /></td>
+						</tr>
+						<tr>
+							<td class="text-right">city:</td>
+							<td><input type="text" name="first_name" /></td>
+						</tr>
+						<tr>
+							<td class="text-right">state:</td>
+							<td><select></select></td>
+						</tr>
+						<tr>
+							<td class="text-right">zip:</td>
+							<td><input type="text" name="first_name" /></td>
+						</tr>
+					</table>
+				</div>
+				<div class="section last">
+					<table>
+						<tr>
+							<td class="text-right">gender:</td>
+							<td><select></select></td>
+						</tr>
+						<tr>
+							<td class="text-right">age:</td>
+							<td><select></select></td>
+						</tr>
+						<tr>
+							<td colspan="2"><br/>Have you previously attended <i>In the Pocket</i>?</td>
+						</tr>
+						<tr>
+							<td class="text-right">yes</td>
+							<td><input type="radio" name="attended"/></td>
+						</tr>
+						<tr>
+							<td class="text-right">no</td>
+							<td><input type="radio" name="attended" /></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="step second">
+				<h2>3. Enter Game Preferences</h2>
+				<div class="section last">
+					<div class="directions">Order your game preferences from most to least desired by dragging to the correct position</div>
+					<ol class="numbers">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+					<ul class="games sortable">
+						<li class="ui-state-default">Bowling</li>
+						<li class="ui-state-default">Poker</li>
+						<li class="ui-state-default">Pool</li>
+						<li class="ui-state-default">Table Tennis</li>
+					</ul>
+				</div>
+			</div>
+			<button class="finish">Finish Preregistration > </button>
+		</form>
+	</div>
+</html>
