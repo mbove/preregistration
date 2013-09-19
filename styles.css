@@ -70,6 +70,9 @@ select{
 	padding: 10px;
 	margin-bottom: 10px;
 }
+.alert{
+	color: red;
+}
 .preregistration{
 	padding-bottom: 20px;
 	border-bottom: 1px solid;
