@@ -11,7 +11,7 @@
 	<div id="wrapper">
 		<h1 class="preregistration">Preregistration</h1>
 		<div class="directions first">Follow the steps to preregister for the event.</div>
-		<form action="success.html">
+		<form action="success.html" onsubmit="return infoValidate()" method="get">
 			<div class="step second">
 				<h2>2. Enter Personal Information</h2>
 				<div class="section">
@@ -21,11 +21,11 @@
 						</tr>
 						<tr>
 							<td class="text-right">* last name:</td>
-							<td><input type="text" name="first_name" /></td>
+							<td><input type="text" name="last_name" /></td>
 						</tr>
 						<tr>
 							<td class="text-right">* first name:</td>
-							<td><input type="text" name="last_name" /></td>
+							<td><input type="text" name="first_name" /></td>
 						</tr>
 					</table>
 				</div>
@@ -33,7 +33,7 @@
 					<table>
 						<tr>
 							<td class="text-right">* phone:</td>
-							<td><input type="text" name="first_name" /></td>
+							<td><input type="text" name="phone" /></td>
 							<td class="side-note">providing your mobile phone number allows </br> you to text to win prizes during the event.</td>
 						</tr>
 						<tr>
@@ -46,22 +46,22 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="text-right">email:</td>
+							<td class="text-right">* email:</td>
 							<td>
-								<input type="text" name="first_name" />
+								<input type="text" name="email" />
 							</td>
 						</tr>
 						<tr>
 							<td class="text-right"><br/>address line 1:</td>
-							<td><br/><input type="text" name="first_name" /></td>
+							<td><br/><input type="text" name="address" /></td>
 						</tr>
 						<tr>
 							<td class="text-right">address line 2:</td>
-							<td><input type="text" name="first_name" /></td>
+							<td><input type="text" name="address2" /></td>
 						</tr>
 						<tr>
 							<td class="text-right">city:</td>
-							<td><input type="text" name="first_name" /></td>
+							<td><input type="text" name="city" /></td>
 						</tr>
 						<tr>
 							<td class="text-right">state:</td>
@@ -72,7 +72,7 @@
 						</tr>
 						<tr>
 							<td class="text-right">zip:</td>
-							<td><input type="text" name="first_name" /></td>
+							<td><input type="text" name="zip" /></td>
 						</tr>
 					</table>
 				</div>
@@ -80,6 +80,7 @@
 					<table>
 						<tr>
 							<td class="text-right">gender:</td>
+<<<<<<< HEAD
 							<td><select>
 								<option></option>
 								<option>female</option>
@@ -96,6 +97,29 @@
 								<option>40-50</option>
 								<option>50 or older</option>
 							</select></td>
+=======
+							<td>
+								<select>							
+									<option></option>
+									<option>Male</option>
+									<option>Female</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="text-right">age:</td>
+							<td>
+								<select>
+									<option></option>
+									<option>18-24</option>
+									<option>25-34</option>
+									<option>35-44</option>
+									<option>45-54</option>
+									<option>55-64</option>
+									<option>65+</option>
+								</select>
+							</td>
+>>>>>>> 00c06e0468e3047cb5e84ab82959be8a232d7f48
 						</tr>
 						<tr>
 							<td colspan="2"><br/>Have you previously attended <i>In the Pocket</i>?</td>
@@ -129,7 +153,11 @@
 					</ul>
 				</div>
 			</div>
+<<<<<<< HEAD
 			<input type="submit" class = "right-button" value="Finish Preregistration >">
+=======
+			<input type="submit" class="right-button" value="Finish Preregistration >">
+>>>>>>> 00c06e0468e3047cb5e84ab82959be8a232d7f48
 		</form>
 	</div>
 </html>
