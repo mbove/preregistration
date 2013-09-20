@@ -81,3 +81,15 @@ select{
 .finish{
 	float: right;
 }
+.title{
+	font-weight: bold;
+	width: 100px;
+	display:inline-block;
+	margin-left: 15px;
+}
+.arrival-time{
+	border-collapse: collapse;
+}
+.arrival-time td{
+	border: 1px solid;
+}
