@@ -81,3 +81,8 @@ select{
 .finish{
 	float: right;
 }
+
+.side-note{
+	font-style: italic;
+	font-size: 11px;	
+}
