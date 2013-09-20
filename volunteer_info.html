@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+  		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  		<script src="info.js"></script>
+	</head>
+	<div id="header">
+	</div>
+	<div id="wrapper">
+		<h1 class="preregistration">Preregistration</h1>
+		<div class="directions first">Follow the steps to preregister for the event.</div>
+		<form action="success.html">
+			<div class="step second">
+				<h2>2. Enter Personal Information</h2>
+				<div class="section last">
+					<table>
+						<tr>
+							<td colspan="2">* required field</td>
+						</tr>
+						<tr>
+							<td class="text-right">* last name:</td>
+							<td><input type="text" name="first_name" /></td>
+						</tr>
+						<tr>
+							<td class="text-right">* first name:</td>
+							<td><input type="text" name="last_name" /></td>
+						</tr>
+					</table>
+				</div>
+				<div class="section last">
+					<table>
+						<tr>
+							<td class="text-right">* phone:</td>
+							<td><input type="text" name="first_name" /></td>
+						</tr>
+						<tr>
+							<td class="text-right">* phone type:</td>
+							<td>
+								<select>
+									<option selected="selected">Mobile</option>
+									<option>Landline</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="text-right">email:</td>
+							<td>
+								<input type="text" name="first_name" />
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="section last">
+					<table>
+						<tr>
+							<td class="text-right">gender:</td>
+							<td><select>
+								<option></option>
+								<option>female</option>
+								<option>male</option>
+							</select></td>
+						</tr>
+						<tr>
+							<td class="text-right">age:</td>
+							<td><select>
+								<option></option>
+								<option>18-24</option>
+								<option>25-34</option>
+								<option>35-44</option>
+								<option>45-54</option>
+								<option>55-64</option>
+								<option>65+</option>
+							</select>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="step second">
+				<h2>3. Enter Volunteer History</h2>
+				<div class="section">
+						<div class="directions">Have you previously volunteered at any event held by the Best of the Batch Foundation?</div>
+						<table>
+						<tr>
+							<td class="text-right">yes</td>
+							<td><input type="radio" name="attended"/></td>
+						</tr>
+						<tr>
+							<td class="text-right">no</td>
+							<td><input type="radio" name="attended" /></td>
+						</tr>
+					</table>
+				</div>
+				<div class="section last">
+				<div class="directions">Please specify event(s)</div>
+				<table>
+						<tr><td class="text-right"><input type="checkbox" name="events" value="event1"/>event 1</td></tr>
+						<tr><td class="text-right"><input type="checkbox" name="events" value="event2"/>event 2</td></tr>
+						<tr><td class="text-right"><input type="checkbox" name="events" value="event3"/>event 3</td></tr>
+						<tr><td class="text-right"><input type="checkbox" name="events" value="event4"/>event 4</td></tr>
+						<tr><td class="text-right"><input type="checkbox" name="events" value="event5"/>event 5</td></tr>
+				</table>
+				</div>
+				<div class="section last">
+					<div class="directions">Please specify task(s) performed</div>
+					<textarea rows="8" cols="50"></textarea>
+				</div>
+			</div>
+			<input type="submit" class = "right-button" value="Next >>">
+		</form>
+	</div>
+</html>

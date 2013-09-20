@@ -49,6 +49,7 @@ body{
 .section{
 	border-bottom: 1px dashed;
 	margin: 15px 5%;
+	padding-bottom: 10px;
 }
 .section.last{
 	border-bottom: 0px;
@@ -81,6 +82,12 @@ select{
 .finish{
 	float: right;
 }
+
+.side-note{
+	font-style: italic;
+	font-size: 11px;	
+}
+
 .title{
 	font-weight: bold;
 	width: 100px;
