@@ -11,7 +11,7 @@
 	<div id="wrapper">
 		<h1 class="preregistration">Preregistration</h1>
 		<div class="directions first">Follow the steps to preregister for the event.</div>
-		<form action="success.html" onsubmit="return infoValidate()">
+		<form action="success.html" onsubmit="return infoValidate()" method="get">
 			<div class="step second">
 				<h2>2. Enter Personal Information</h2>
 				<div class="section">
@@ -46,7 +46,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="text-right">email:</td>
+							<td class="text-right">* email:</td>
 							<td>
 								<input type="text" name="email" />
 							</td>
