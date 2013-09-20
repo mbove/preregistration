@@ -49,6 +49,7 @@ body{
 .section{
 	border-bottom: 1px dashed;
 	margin: 15px 5%;
+	padding-bottom: 10px;
 }
 .section.last{
 	border-bottom: 0px;
