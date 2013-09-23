@@ -4,6 +4,7 @@
 		<link href="styles.css" rel="stylesheet" type="text/css" />
   		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  		<script src="functions.js"></script>
   		<script src="info.js"></script>
 	</head>
 	<div id="header">
@@ -11,7 +12,7 @@
 	<div id="wrapper">
 		<h1 class="preregistration">Preregistration</h1>
 		<div class="directions first">Follow the steps to preregister for the event.</div>
-		<form action="waiver.html" method="get">
+		<form action="waiver.html" method="get" onsubmit="return infoValidate()">
 			<div class="step second">
 				<h2>2. Enter Personal Information</h2>
 				<div class="section last">
@@ -32,11 +33,11 @@
 				<div class="section last">
 					<table>
 						<tr>
-							<td class="text-right">* phone:</td>
+							<td class="text-right">phone:</td>
 							<td><input type="text" name="phone" /></td>
 						</tr>
 						<tr>
-							<td class="text-right">* phone type:</td>
+							<td class="text-right">phone type:</td>
 							<td>
 								<select>
 									<option selected="selected">Mobile</option>
@@ -45,7 +46,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="text-right">email:</td>
+							<td class="text-right">* email:</td>
 							<td>
 								<input type="text" name="email" />
 							</td>
@@ -81,25 +82,17 @@
 				<h2>3. Enter Volunteer History</h2>
 				<div class="section">
 						<div class="directions">Have you previously volunteered at any event held by the Best of the Batch Foundation?</div>
-						<table>
-						<tr>
-							<td class="text-right">yes</td>
-							<td><input type="radio" name="attended"/></td>
-						</tr>
-						<tr>
-							<td class="text-right">no</td>
-							<td><input type="radio" name="attended" /></td>
-						</tr>
-					</table>
+						<input type="radio" name="attended"/>Yes<br>
+						<input type="radio" name="attended"/>No<br>
 				</div>
 				<div class="section last">
 				<div class="directions">Please specify event(s)</div>
 				<table>
-						<tr><td class="text-right"><input type="checkbox" name="events" value="event1"/>event 1</td></tr>
-						<tr><td class="text-right"><input type="checkbox" name="events" value="event2"/>event 2</td></tr>
-						<tr><td class="text-right"><input type="checkbox" name="events" value="event3"/>event 3</td></tr>
-						<tr><td class="text-right"><input type="checkbox" name="events" value="event4"/>event 4</td></tr>
-						<tr><td class="text-right"><input type="checkbox" name="events" value="event5"/>event 5</td></tr>
+						<input type="checkbox" name="events" value="event1"/>event 1<br>
+						<input type="checkbox" name="events" value="event2"/>event 2<br>
+						<input type="checkbox" name="events" value="event3"/>event 3<br>
+						<input type="checkbox" name="events" value="event4"/>event 4<br>
+						<input type="checkbox" name="events" value="event5"/>event 5<br>
 				</table>
 				</div>
 				<div class="section last">
