@@ -18,13 +18,25 @@ function ticketValidate(){
 		}, 5000);
 		return false;
 	}
-	if(ticket_num>0 && ticket_num<999 && ticket_code.length==5){
+	if(validCode(ticket_num, ticket_code)){
 		return true;
 	}
-	$('[type="text"]').css('border-color', 'red');
-	$('.directions.first').after("<div class='alert'>Invalid Ticket Number or Code</div>");
-	setInterval(function(){
-		$('.alert').remove();
-	}, 5000);
-	return false;
+	else{
+		$('[type="text"]').css('border-color', 'red');
+		$('.directions.first').after("<div class='alert'>Invalid Ticket Number or Code</div>");
+		setInterval(function(){
+			$('.alert').remove();
+		}, 5000);
+		return false;
+	}
 }
+function validCode(ticket_num, ticket_code){
+	if(ticket_num==501 && ticket_code=="qwerty"){
+		return true;
+	}
+	if(ticket_num==999 && ticket_code=="asdfgh"){
+		$('form').attr('action', 'volunteer_info.html');
+		return true;
+	}
+	return false;
+}_
