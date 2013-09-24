@@ -34,13 +34,10 @@ body{
 	overflow: hidden;
 	margin-bottom: 25px;
 	border: 1px solid;
+	width: 800px;
 	border-bottom-right-radius: 4px;
 	border-bottom-left-radius: 4px;
 }
-.right-button{
-	float: right;
-}
-
 .section{
 	border-bottom: 1px dashed;
 	margin: 15px 5%;
@@ -86,7 +83,7 @@ select{
 
 .title{
 	font-weight: bold;
-	width: 100px;
+	width: 80px;
 	display:inline-block;
 }
 .arrival-time{
@@ -99,9 +96,6 @@ select{
 }
 .selected{
 	background-color: #fffc78;
-}
-.step{
-	width: 800px;
 }
 
 hr{
@@ -116,4 +110,27 @@ hr{
 }
 .chargie img{
 	width: 100%;
+}
+button, input[type="submit"]{
+	display:block;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid;
+	cursor: pointer;
+	margin: 0px;
+	background-color: #38578f;
+	margin-bottom: 50px;
+}
+.button-frame{
+	width: 802px;
+}
+button:hover, input[type="submit"]:hover{
+	background-color: #4b79ca;
+}
+.right-button{
+	float: right;
+}
+a{
+	text-decoration: none;
 }
