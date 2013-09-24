@@ -48,6 +48,7 @@ body{
 }
 .section.last{
 	border-bottom: 0px;
+	overflow: hidden;
 }
 select{
 	width: 127px;
