@@ -8,19 +8,14 @@ body{
 }
 .left{
 	float: left;
-	width: 40%;
-	padding: 15px 5%;
+	width: 350px;
+	margin: 25px 25px;
 }
 .directions{
 	margin-bottom: 20px;
 }
 .directions.first{
 	margin-bottom: 40px;
-}
-.right{
-	float: right;
-	width: 40%;
-	padding: 15px 5%;
 }
 #wrapper{
 	max-width: 960px;
@@ -92,11 +87,32 @@ select{
 	font-weight: bold;
 	width: 100px;
 	display:inline-block;
-	margin-left: 15px;
 }
 .arrival-time{
 	border-collapse: collapse;
+	width: 100%;
 }
 .arrival-time td{
 	border: 1px solid;
+	padding: 5px;
+}
+.selected{
+	background-color: #fffc78;
+}
+.step{
+	width: 800px;
+}
+
+hr{
+	border-style: dashed;
+}
+.green{
+	color: #008f50;
+}
+.chargie{
+	width: 100px;
+	float: right;
+}
+.chargie img{
+	width: 100%;
 }
