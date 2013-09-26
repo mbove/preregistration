@@ -64,6 +64,13 @@ select{
 	padding: 10px;
 	margin-bottom: 10px;
 }
+.games li{
+	cursor: move;
+	cursor: url('http://www.google.com/intl/en_ALL/mapfiles/openhand.cur');
+}
+.games li:active{
+	cursor: url('http://www.google.com/intl/en_ALL/mapfiles/closedhand.cur');
+}
 .alert{
 	color: red;
 }
