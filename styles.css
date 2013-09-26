@@ -6,6 +6,9 @@ body{
 	text-align: right;
 	width: 150px;
 }
+.ui-icon-arrowthick-2-n-s{
+	float: right;
+}
 .left{
 	float: left;
 	width: 350px;
